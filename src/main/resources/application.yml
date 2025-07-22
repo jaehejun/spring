@@ -1,0 +1,6 @@
+spring:
+  application:
+    name:spring-domo
+
+  server:
+    port: 7070
