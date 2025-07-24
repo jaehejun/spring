@@ -1,0 +1,24 @@
+2025-07-24 15:22:00 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Started BoardServiceTests in 4.772 seconds (process running for 6.13)
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -PREV: true
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -NEXT: true
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -TOTAL PAGE: 22
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests --------------------------------------------------
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -BoardDTO(bno=56, title=title ... 51, content=content ... 51, writer=writer ... 51, regDate=2025-07-24T14:00:32.310136, hit=0)
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -BoardDTO(bno=55, title=title ... 50, content=content ... 50, writer=writer ... 50, regDate=2025-07-24T14:00:32.301802, hit=0)
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -BoardDTO(bno=54, title=title ... 49, content=content ... 49, writer=writer ... 49, regDate=2025-07-24T14:00:32.295695, hit=0)
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -BoardDTO(bno=53, title=title ... 48, content=content ... 48, writer=writer ... 48, regDate=2025-07-24T14:00:32.289414, hit=0)
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -BoardDTO(bno=52, title=title ... 47, content=content ... 47, writer=writer ... 47, regDate=2025-07-24T14:00:32.283414, hit=0)
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests ---------------------------------------------------
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -11
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -12
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -13
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -14
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -15
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -16
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -17
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -18
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -19
+2025-07-24 15:22:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -20
+2025-07-24 15:22:01 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24 15:22:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2025-07-24 15:22:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

@@ -1,1 +1,57 @@
-2025-07-24 08:58:46 [HikariPool-8:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -HikariPool-8 - Thread starvation or clock leap detected (housekeeper delta=12h10m3s181ms48µs500ns).
+2025-07-24 15:26:13 [background-preinit] INFO  org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.2.Final
+2025-07-24 15:26:13 [Test worker] INFO  com.example.springdemo.BoardServiceTests Starting BoardServiceTests using Java 21.0.7 with PID 18476 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-24 15:26:13 [Test worker] INFO  com.example.springdemo.BoardServiceTests No active profile set, falling back to 1 default profile: "default"
+2025-07-24 15:26:14 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-24 15:26:14 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2025-07-24 15:26:14 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-24 15:26:14 [Test worker] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-24 15:26:14 [Test worker] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-24 15:26:15 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-24 15:26:15 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-07-24 15:26:15 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6071631f
+2025-07-24 15:26:15 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-07-24 15:26:15 [Test worker] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-24 15:26:16 [Test worker] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-24 15:26:16 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24 15:26:16 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 15:26:16 [Test worker] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-24 15:26:17 [Test worker] INFO  o.s.d.j.repository.query.QueryEnhancerFactory Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-24 15:26:17 [Test worker] INFO  com.example.springdemo.BoardServiceTests Started BoardServiceTests in 4.682 seconds (process running for 5.94)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests PREV: false
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests NEXT: false
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests TOTAL PAGE: 8
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests -------------------------------------------------
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=76, title=title ... 71, content=content ... 71, writer=writer ... 71, regDate=2025-07-24T14:00:32.444081, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=75, title=title ... 70, content=content ... 70, writer=writer ... 70, regDate=2025-07-24T14:00:32.439091, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=74, title=title ... 69, content=content ... 69, writer=writer ... 69, regDate=2025-07-24T14:00:32.433081, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=73, title=title ... 68, content=content ... 68, writer=writer ... 68, regDate=2025-07-24T14:00:32.428117, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=72, title=title ... 67, content=content ... 67, writer=writer ... 67, regDate=2025-07-24T14:00:32.422217, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=71, title=title ... 66, content=content ... 66, writer=writer ... 66, regDate=2025-07-24T14:00:32.405829, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=70, title=title ... 65, content=content ... 65, writer=writer ... 65, regDate=2025-07-24T14:00:32.399822, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=69, title=title ... 64, content=content ... 64, writer=writer ... 64, regDate=2025-07-24T14:00:32.381550, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=68, title=title ... 63, content=content ... 63, writer=writer ... 63, regDate=2025-07-24T14:00:32.376550, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=67, title=title ... 62, content=content ... 62, writer=writer ... 62, regDate=2025-07-24T14:00:32.372548, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=66, title=title ... 61, content=content ... 61, writer=writer ... 61, regDate=2025-07-24T14:00:32.367553, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=65, title=title ... 60, content=content ... 60, writer=writer ... 60, regDate=2025-07-24T14:00:32.361043, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=64, title=title ... 59, content=content ... 59, writer=writer ... 59, regDate=2025-07-24T14:00:32.355033, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=63, title=title ... 58, content=content ... 58, writer=writer ... 58, regDate=2025-07-24T14:00:32.349197, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=62, title=title ... 57, content=content ... 57, writer=writer ... 57, regDate=2025-07-24T14:00:32.343103, hit=0)
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests --------------------------------------------------
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 1
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 2
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 3
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 4
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 5
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 6
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 7
+2025-07-24 15:26:18 [Test worker] INFO  com.example.springdemo.BoardServiceTests 8
+2025-07-24 15:26:18 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24 15:26:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-07-24 15:26:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.

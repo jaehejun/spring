@@ -1,0 +1,14 @@
+2025-07-24 14:07:00 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Started BoardServiceTests in 4.355 seconds (process running for 5.561)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=106, title=Test Title1, content=Test Content1, writer=user001, regDate=2025-07-24T14:00:32.600206, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=105, title=title ... 100, content=content ... 100, writer=writer ... 100, regDate=2025-07-24T14:00:32.588546, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=98, title=title ... 93, content=content ... 93, writer=writer ... 93, regDate=2025-07-24T14:00:32.558149, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=88, title=title ... 83, content=content ... 83, writer=writer ... 83, regDate=2025-07-24T14:00:32.507840, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=78, title=title ... 73, content=content ... 73, writer=writer ... 73, regDate=2025-07-24T14:00:32.454897, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=68, title=title ... 63, content=content ... 63, writer=writer ... 63, regDate=2025-07-24T14:00:32.376550, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=58, title=title ... 53, content=content ... 53, writer=writer ... 53, regDate=2025-07-24T14:00:32.321213, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=48, title=title ... 43, content=content ... 43, writer=writer ... 43, regDate=2025-07-24T14:00:32.260510, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=44, title=title ... 39, content=content ... 39, writer=writer ... 39, regDate=2025-07-24T14:00:32.241272, hit=0)
+2025-07-24 14:07:01 [Test worker] INFO  com.example.springdemo.BoardServiceTests -Board(bno=43, title=title ... 38, content=content ... 38, writer=writer ... 38, regDate=2025-07-24T14:00:32.236348, hit=0)
+2025-07-24 14:07:01 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24 14:07:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2025-07-24 14:07:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

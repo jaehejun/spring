@@ -12,7 +12,7 @@ public class LoggingTestController {
 
     private static final Logger logger = LoggerFactory.getLogger(LoggingTestController.class);
 
-    @GetMapping("/test")
+    @GetMapping("/test")    // http://localhost:8080/log/test
     public String testLogging() {
         logger.info("INFO 로그 발생");
         logger.debug("DEBUG 로그 발생");
