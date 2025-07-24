@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--src/main/resources/logback-spring.xml-->
+<configuration>
+
+<!--    ROLLING: 로그를 파일로 출력하고 일정 기준(시간)에 따라 롤링하는 역할-->
+<!--    ROllingFileAppender : 로그를 파일로 저장하고 정책에 따라 자동 분할-->
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+<!--         로그 저장 위치 : 로그가 롤링되면 이 파일은 백업되고 새 로그는 다시 myapp.log에 기록-->
+        <file>logs/myapp.log</file>
+
+<!--        롤링정책 : 5분 단위 분할-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+<!--            5분 단위 롤링-->
+            <fileNamePattern>logs/myapp.%d{yyyy-MM-dd_HH-mm}.log</fileNamePattern>
+
+<!--            로그 파일 보관 기간. 하루치(5분 * 12 * 24 = 288개 파일 보관)-->
+            <maxHistory>288</maxHistory>
+
+        </rollingPolicy>
+
+<!--        로그 포맷 설정-->
+        <encoder>
+
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{46} -%msg%n</pattern>
+
+        </encoder>
+
+    </appender>
+
+<!--    root 로그 레벨 및 연결, INFO, WARN, ERROR 출력 또는 저장-->
+    <root level="INFO">
+
+        <appender-ref ref="ROLLING" />
+
+    </root>
+
+</configuration>

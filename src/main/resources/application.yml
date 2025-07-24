@@ -1,6 +1,25 @@
 spring:
   application:
-    name:spring-domo
+    name:spring-demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/scottdb?serverTimezone=UTC&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+    username: scott
+    password: tiger
+  jpa:
+    hibernate:
+      ddl-auto: update # DDL(create, alter, drop) 정의 시 DB의 고유 기능을 사용할 수 있음. Update는 없는 경우는 create, 이미 생성된 경우 alter
+    properties:
+      hibernate:
+        show_sql: true # true 설정 시 JPA 쿼리문 확인 가능
+        format_sql: true # JPA의 구현체인 Hibernate가 동작하면서 발생한 SQL의 가독성을 높여줌
 
-  server:
-    port: 7070
+
+server:
+  port: 8080
+
+logging:
+  structured:
+    enabled: true
+    format:
+      console: com.example.springdemo.util.MyCustomFormat
