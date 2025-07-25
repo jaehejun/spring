@@ -1,3 +1,0 @@
-2025-07-24 13:30:59 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 8.0.2.Final
-2025-07-24 13:30:59 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests -Starting MemoRepositoryTests using Java 21.0.7 with PID 8240 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
-2025-07-24 13:30:59 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests -No active profile set, falling back to 1 default profile: "default"

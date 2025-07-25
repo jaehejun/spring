@@ -1,0 +1,6 @@
+2025-07-25 10:30:00 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Started BoardRepositoryTests in 4.472 seconds (process running for 5.716)
+2025-07-25 10:30:00 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Board(bno=100, title=Title...100, content=Content...100, hit=0)
+2025-07-25 10:30:00 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Member(email=user100@aaa.com, password=1111, name=USER100)
+2025-07-25 10:30:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-25 10:30:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-07-25 10:30:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.

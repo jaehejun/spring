@@ -39,7 +39,7 @@ public class MemoRepositoryTests {
     @Test
     public void testSelect() {
         //데이터베이스에 존재하는 mno
-        Long mno =  10L;
+        Long mno =  20L;
         Optional<Memo> result = memoRepository.findById(mno);
         log.info("======================================================");
         if (result.isPresent()) {
@@ -48,21 +48,21 @@ public class MemoRepositoryTests {
         }
     }
 
-//    @Transactional
-//    @Test
-//    public void testSelect2() {
-//        Long mno =  5L;
-//        Memo memo = memoRepository.getOne(mno);
-//        log.info("========================================================");
-//        log.info(memo);
-//    }
+    @Transactional
+    @Test
+    public void testSelect2() {
+        Long mno =  30L;
+        Memo memo = memoRepository.getOne(mno);
+        log.info("========================================================");
+        log.info(memo);
+    }
 
     @Transactional
-//    @Test
-//    public void testUpdate() {
-//        Memo memo = Memo.builder().mno(5L).memoText("Update Text").build();
-//        log.info(memoRepository.save(memo));
-//    }
+    @Test
+    public void testUpdate() {
+        Memo memo = Memo.builder().mno(50L).memoText("Update Text").build();
+        log.info(memoRepository.save(memo));
+    }
 
     @Test
     public void testDelete() {
@@ -73,7 +73,12 @@ public class MemoRepositoryTests {
     @Test
     public void testPageDefault() {
         // 1 페이지에 5개, 첫번째 페이지
+
+        //Pageable : 페이지 정보 전달용(페이지 번호, 크기, 정렬 기준 등) -> 요청시 사용
+        // 0번 페이지부터 시작해서 5개씩
         Pageable pageable = PageRequest.of(0, 5);
+
+        //Page<T> : 페이징 결과(전체 페이지 수, 현재 페이지, 실제 데이터 리스트 등 포함) -> 응답받을 때 사용
         Page<Memo> result = memoRepository.findAll(pageable);
         log.info(result);
     }
@@ -91,6 +96,7 @@ public class MemoRepositoryTests {
         log.info("Page Size: " + result.getSize()); // 페이지당 데이터 개수
         log.info("has Next Page?: " + result.hasNext()); // 다음 페이지가 있는가?
         log.info("first Page?: " + result.isFirst()); // 첫 번째 페이지인가?
+        log.info("getSort(): " + result.getSort()); // 정렬정보
     }
 
     @Test
