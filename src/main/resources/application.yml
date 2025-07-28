@@ -13,6 +13,15 @@ spring:
       hibernate:
         show_sql: true # true 설정 시 JPA 쿼리문 확인 가능
         format_sql: true # JPA의 구현체인 Hibernate가 동작하면서 발생한 SQL의 가독성을 높여줌
+  servlet:
+    multipart:
+      location: C:/Users/campus2H052/Desktop/upload
+      enabled: true
+      max-request-size: 30MB
+      max-file-size: 10MB
+
+upload:
+  path: C:/Users/campus2H052/Desktop/upload
 
 
 server:

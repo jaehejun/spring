@@ -26,6 +26,14 @@ public class Board extends BaseEntity {
     private Member writer; //연관관계 지정
     @Builder.Default
     private Integer hit = 0;
+
+    public void changeTitle(String title) {
+        this.title = title;
+    }
+
+    public void changeContent(String content) {
+        this.content = content;
+    }
 }
 
 //@Entity

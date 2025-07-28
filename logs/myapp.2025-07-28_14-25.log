@@ -1,0 +1,2 @@
+2025-07-28 14:25:43 [http-nio-8080-exec-9] INFO  c.e.springdemo.controller.upDownController UploadFileDTO(files=[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@18046e70])
+2025-07-28 14:25:43 [http-nio-8080-exec-9] INFO  c.e.springdemo.controller.upDownController 스크린샷 2025-07-25 151308.png

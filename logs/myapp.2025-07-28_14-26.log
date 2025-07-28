@@ -1,0 +1,4 @@
+2025-07-28 14:26:08 [http-nio-8080-exec-1] INFO  c.e.springdemo.controller.upDownController UploadFileDTO(files=[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2c1b6bdc, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@177078c9, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6a25a269])
+2025-07-28 14:26:08 [http-nio-8080-exec-1] INFO  c.e.springdemo.controller.upDownController 스크린샷 2025-07-25 151551.png
+2025-07-28 14:26:08 [http-nio-8080-exec-1] INFO  c.e.springdemo.controller.upDownController 스크린샷 2025-07-25 151308.png
+2025-07-28 14:26:08 [http-nio-8080-exec-1] INFO  c.e.springdemo.controller.upDownController 스크린샷 2025-07-24 105915.png

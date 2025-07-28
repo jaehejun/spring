@@ -1,6 +1,8 @@
 package com.example.springdemo;
 
 import com.example.springdemo.entity.Board;
+import com.example.springdemo.entity.BoardDTO;
+import com.example.springdemo.entity.BoardReplyDTO;
 import com.example.springdemo.entity.Member;
 import com.example.springdemo.repository.BoardRepository;
 import lombok.extern.log4j.Log4j2;
@@ -72,5 +74,34 @@ public class BoardRepositoryTests {
             Object[] arr = (Object[]) row;
             log.info(Arrays.toString(arr));
         });
+    }
+
+    @Test
+    public void testReadWithWriterDTO() {
+        BoardDTO dto = boardRepository.getBoardDTOWithWriter(100L);
+        log.info("----------------------------------");
+        log.info(dto);
+    }
+
+    @Test
+    public void testGetBoardWithReplies() {
+        List<BoardReplyDTO> result = boardRepository.getBoardWithReplies(100L);
+        result.forEach(dto -> log.info(dto));
+    }
+
+    @Test
+    public void testSearchWithReplyCount() {
+        Pageable pageable = PageRequest.of(0,10);
+        Page<BoardDTO> result = boardRepository.searchWithReplyCount(pageable);
+
+        result.getContent().forEach(dto -> {
+            log.info(dto);
+        });
+    }
+
+    @Test
+    public void testGetBoardByBnoWithReplyCount() {
+        BoardDTO dto = boardRepository.getBoardByBnoWithReplyCount(10L);
+        log.info(dto);
     }
 }

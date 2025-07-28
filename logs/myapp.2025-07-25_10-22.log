@@ -1,6 +1,0 @@
-2025-07-25 10:22:00 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Started BoardRepositoryTests in 4.389 seconds (process running for 5.52)
-2025-07-25 10:22:00 [Test worker] WARN  o.hibernate.engine.jdbc.spi.SqlExceptionHelper SQL Error: 1364, SQLState: HY000
-2025-07-25 10:22:00 [Test worker] ERROR o.hibernate.engine.jdbc.spi.SqlExceptionHelper Field 'writer' doesn't have a default value
-2025-07-25 10:22:01 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-25 10:22:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
-2025-07-25 10:22:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.

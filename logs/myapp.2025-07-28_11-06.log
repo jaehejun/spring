@@ -1,0 +1,33 @@
+2025-07-28 11:06:24 [background-preinit] INFO  org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.2.Final
+2025-07-28 11:06:24 [Test worker] INFO  com.example.springdemo.BoardServiceTests Starting BoardServiceTests using Java 21.0.7 with PID 324 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-28 11:06:24 [Test worker] INFO  com.example.springdemo.BoardServiceTests No active profile set, falling back to 1 default profile: "default"
+2025-07-28 11:06:25 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-28 11:06:25 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2025-07-28 11:06:26 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-28 11:06:26 [Test worker] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-28 11:06:26 [Test worker] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-28 11:06:26 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-28 11:06:26 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-07-28 11:06:26 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@484876a1
+2025-07-28 11:06:26 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-07-28 11:06:26 [Test worker] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-28 11:06:27 [Test worker] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-28 11:06:27 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-28 11:06:27 [Test worker] INFO  o.s.d.j.repository.query.QueryEnhancerFactory Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-28 11:06:28 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-28 11:06:28 [Test worker] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-28 11:06:29 [Test worker] INFO  com.example.springdemo.BoardServiceTests Started BoardServiceTests in 4.938 seconds (process running for 6.147)
+2025-07-28 11:06:29 [Test worker] INFO  com.example.springdemo.entity.BoardService DTO -------------------------------
+2025-07-28 11:06:29 [Test worker] INFO  com.example.springdemo.entity.BoardService BoardDTO(bno=null, title=Test Title1, content=Test Content1, writerEmail=user5@aaa.com, writerName=null, regDate=null, modDate=null, replyCount=null, hit=null)
+2025-07-28 11:06:29 [Test worker] INFO  com.example.springdemo.entity.BoardService Board(bno=null, title=Test Title1, content=Test Content1, hit=0)
+2025-07-28 11:06:29 [Test worker] INFO  com.example.springdemo.BoardServiceTests 120
+2025-07-28 11:06:29 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-28 11:06:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-07-28 11:06:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.

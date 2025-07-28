@@ -1,0 +1,10 @@
+2025-07-28 14:53:00 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+2025-07-28 14:53:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2025-07-28 14:53:00 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path '/'
+2025-07-28 14:53:00 [restartedMain] INFO  com.example.springdemo.SpringDemoApplication Started SpringDemoApplication in 4.73 seconds (process running for 5.306)
+2025-07-28 14:53:59 [http-nio-8080-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-28 14:53:59 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-07-28 14:53:59 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2025-07-28 14:53:59 [http-nio-8080-exec-3] INFO  c.e.springdemo.controller.upDownController UploadFileDTO(files=[org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7e88bb6e, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@14a5e943])
+2025-07-28 14:53:59 [http-nio-8080-exec-3] INFO  c.e.springdemo.controller.upDownController 스크린샷 2025-07-25 151551.png
+2025-07-28 14:53:59 [http-nio-8080-exec-3] INFO  c.e.springdemo.controller.upDownController test.txt.txt
