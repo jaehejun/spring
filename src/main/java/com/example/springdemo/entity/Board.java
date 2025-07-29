@@ -8,6 +8,8 @@ import org.springframework.data.domain.Auditable;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Builder
@@ -34,6 +36,26 @@ public class Board extends BaseEntity {
     public void changeContent(String content) {
         this.content = content;
     }
+
+    @OneToMany(mappedBy = "board",cascade = {CascadeType.ALL},fetch = FetchType.LAZY, orphanRemoval = true)
+    @Builder.Default
+    private Set<BoardImage> imageSet = new HashSet<BoardImage>();
+
+    public void addImage(String uuid, String fileName) {
+        BoardImage boardImage = BoardImage.builder()
+                .uuid(uuid)
+                .fileName(fileName)
+                .board(this)
+                .ord(imageSet.size())
+                .build();
+        imageSet.add(boardImage);
+    }
+
+    public void clearImages() {
+        imageSet.forEach(boardImage -> boardImage.changeBoard(null));
+        this.imageSet.clear();
+    }
+
 }
 
 //@Entity

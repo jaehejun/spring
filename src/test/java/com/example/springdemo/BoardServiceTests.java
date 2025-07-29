@@ -12,7 +12,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.test.annotation.Commit;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Optional;
+import java.util.UUID;
 import java.util.stream.IntStream;
 
 @SpringBootTest
@@ -70,6 +74,60 @@ public class BoardServiceTests {
         }
         log.info("----------------------------------------------");
         resultDTO.getPageList().forEach(i->log.info(i));
+    }
+
+    @Test
+    public void testInsertWithImages() {
+        Member member = Member.builder().email("user1@aaa.com").build();
+        Board board = Board.builder()
+                .title("Image Test")
+                .content("첨부파일 테스트")
+                .writer(member)
+                .build();
+        for (int i = 0; i < 3; i++) {
+            board.addImage(UUID.randomUUID().toString(),"file"+i+".jpg");
+        }
+        boardRepository.save(board);
+    }
+
+    @Transactional
+    @Test
+    public void testReadWithImages() {
+        // 반드시 존재하는 bno로 확인
+        Optional<Board> result = boardRepository.findById(70L);
+
+        Board board = result.orElseThrow();
+
+        log.info(board);
+        log.info("--------------------------------------");
+        log.info(board.getImageSet());
+    }
+
+    @Test
+    public void testReadWithImages2() {
+        // 반드시 존재하는 bno로 확인
+        Optional<Board> result = boardRepository.findByIdWithImages(4L);
+        Board board = result.orElseThrow();
+        log.info(board);
+        log.info("------------------------------------------");
+        for (BoardImage boardImage : board.getImageSet()) {
+            log.info(boardImage);
+        }
+    }
+
+    @Transactional
+    @Commit
+    @Test
+    public void testModifyImages() {
+        Optional<Board> result = boardRepository.findByIdWithImages(4L);
+        Board board = result.orElseThrow();
+        //기존의 첨부파일들 삭제
+        board.clearImages();
+        //새로운 첨부파일들
+        for (int i=0;i<2;i++){
+            board.addImage(UUID.randomUUID().toString(),"updatefile"+i+".jpg");
+        }
+        boardRepository.save(board);
     }
 
 //    @Test

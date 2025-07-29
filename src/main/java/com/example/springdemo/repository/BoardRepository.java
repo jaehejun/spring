@@ -3,6 +3,7 @@ package com.example.springdemo.repository;
 import com.example.springdemo.entity.Board;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
@@ -10,6 +11,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface BoardRepository extends JpaRepository<Board, Long>, QuerydslPredicateExecutor<Board>, BoardRepositoryCustom {
@@ -26,4 +28,8 @@ public interface BoardRepository extends JpaRepository<Board, Long>, QuerydslPre
             + "left join Reply r on r.board = b group by b "
             , countQuery = "select count(b) from Board b")
     Page<Object[]> getBoardWithReplyCount(Pageable pageable); // 목록 화면에 필요한 데이터
+
+    @EntityGraph(attributePaths = {"imageSet"})
+    @Query("select b from Board b where b.bno=:bno")
+    Optional<Board> findByIdWithImages(Long bno);
 }
