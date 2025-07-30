@@ -1,8 +1,13 @@
 package com.example.springdemo.config;
 
+import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
+import io.swagger.v3.oas.models.media.StringSchema;
+import io.swagger.v3.oas.models.parameters.Parameter;
 import io.swagger.v3.oas.models.servers.Server;
+import org.springdoc.core.customizers.OpenApiCustomizer;
+import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -27,5 +32,38 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(info)
                 .servers(List.of(devServer, prodServer));
+    }
+    @Bean
+    public OpenApiCustomizer globalHeaderCustomizer() {
+        return openApi -> openApi.getPaths().values().forEach(pathItem ->
+                pathItem.readOperations().forEach(operation -> {
+                    Parameter acceptLanguage = new Parameter()
+                            .in(ParameterIn.HEADER.toString()) // 헤더로 지정
+                            .name("Accept-Language") //헤더 이름
+                            .required(false) //필수 아님
+                            .schema(new StringSchema()._default("ko")) //기본값 "ko"
+                            .description("언어 설정 (예: ko, en, en_US)");
+                    operation.addParametersItem(acceptLanguage); //해당 operation에 추가
+                })
+        );
+    }
+
+    @Bean
+    public GroupedOpenApi nonApiGroup(OpenApiCustomizer globalHeaderCustomizer) {
+        return GroupedOpenApi.builder()
+                .group("non-api")   //원하는 그룹 이름
+                .pathsToExclude("/api/**")  //api로 시작하는 경로는 제외
+                .addOpenApiCustomizer(globalHeaderCustomizer()) //전역 헤더 커스터마이저 연결
+                .build();
+    }
+
+    //일반 API 그룹
+    @Bean
+    public GroupedOpenApi generalApi(OpenApiCustomizer globalHeaderCustomizer) {
+        return GroupedOpenApi.builder()
+                .group("general-api")
+                .pathsToMatch("/api/**")    //일반 API 경로
+                .addOpenApiCustomizer(globalHeaderCustomizer()) //전역 헤더 커스터마이저 연결
+                .build();
     }
 }

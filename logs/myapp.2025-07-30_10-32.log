@@ -1,0 +1,1096 @@
+2025-07-30 10:32:01 [restartedMain] INFO  com.example.springdemo.SpringDemoApplication Starting SpringDemoApplication using Java 21.0.7 with PID 20628 (C:\Users\campus2H052\Desktop\spring-demo\build\classes\java\main started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:01 [restartedMain] INFO  com.example.springdemo.SpringDemoApplication No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8080 (http)
+2025-07-30 10:32:01 [restartedMain] INFO  org.apache.catalina.core.StandardService Starting service [Tomcat]
+2025-07-30 10:32:01 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-30 10:32:01 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 368 ms
+2025-07-30 10:32:01 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-30 10:32:01 [restartedMain] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-30 10:32:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-07-30 10:32:01 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aec8986
+2025-07-30 10:32:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-07-30 10:32:01 [restartedMain] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-30 10:32:01 [restartedMain] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:01 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-30 10:32:01 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+2025-07-30 10:32:02 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path '/'
+2025-07-30 10:32:02 [restartedMain] INFO  com.example.springdemo.SpringDemoApplication Started SpringDemoApplication in 0.755 seconds (process running for 24.33)
+2025-07-30 10:32:02 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-07-30 10:32:06 [background-preinit] INFO  org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.2.Final
+2025-07-30 10:32:06 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Starting BoardRepositoryTests using Java 21.0.7 with PID 20180 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:06 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:07 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:07 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 79 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:07 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-30 10:32:07 [Test worker] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-30 10:32:07 [Test worker] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-30 10:32:08 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-30 10:32:08 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-07-30 10:32:08 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@612bb755
+2025-07-30 10:32:08 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-07-30 10:32:08 [Test worker] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-30 10:32:09 [Test worker] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-30 10:32:09 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:09 [Test worker] INFO  o.s.d.j.repository.query.QueryEnhancerFactory Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-30 10:32:10 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-30 10:32:10 [Test worker] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Started BoardRepositoryTests in 5.319 seconds (process running for 7.213)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Board(bno=100, title=Title...100, content=Content...100, hit=0, imageSet=[])
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Member(email=user100@aaa.com, password=1111, name=USER100)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=324, title=Image Test, content=첨부파일 테스트, writerEmail=user1@aaa.com, writerName=USER1, regDate=2025-07-29T10:09:04.764827, modDate=2025-07-29T10:09:04.764827, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=322, title=Test Title1, content=Test Content1, writerEmail=user5@aaa.com, writerName=USER5, regDate=2025-07-29T09:09:46.937864, modDate=2025-07-29T09:09:46.937864, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=321, title=Title...100, content=Content...100, writerEmail=user100@aaa.com, writerName=USER100, regDate=2025-07-29T09:09:46.874776, modDate=2025-07-29T09:09:46.874776, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=320, title=Title...99, content=Content...99, writerEmail=user99@aaa.com, writerName=USER99, regDate=2025-07-29T09:09:46.859136, modDate=2025-07-29T09:09:46.859136, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=319, title=Title...98, content=Content...98, writerEmail=user98@aaa.com, writerName=USER98, regDate=2025-07-29T09:09:46.859136, modDate=2025-07-29T09:09:46.859136, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=318, title=Title...97, content=Content...97, writerEmail=user97@aaa.com, writerName=USER97, regDate=2025-07-29T09:09:46.859136, modDate=2025-07-29T09:09:46.859136, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=317, title=Title...96, content=Content...96, writerEmail=user96@aaa.com, writerName=USER96, regDate=2025-07-29T09:09:46.843551, modDate=2025-07-29T09:09:46.843551, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=316, title=Title...95, content=Content...95, writerEmail=user95@aaa.com, writerName=USER95, regDate=2025-07-29T09:09:46.843551, modDate=2025-07-29T09:09:46.843551, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=315, title=Title...94, content=Content...94, writerEmail=user94@aaa.com, writerName=USER94, regDate=2025-07-29T09:09:46.843551, modDate=2025-07-29T09:09:46.843551, replyCount=0, hit=0)
+2025-07-30 10:32:11 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=314, title=Title...93, content=Content...93, writerEmail=user93@aaa.com, writerName=USER93, regDate=2025-07-29T09:09:46.825315, modDate=2025-07-29T09:09:46.825315, replyCount=0, hit=0)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardReplyDTO(bno=100, title=Title...100, content=Content...100, hit=0, regDate=2025-07-25T10:27:46.344654, modDate=2025-07-25T10:27:46.344654, rno=45, reply=Reply...45, replyer=guest, replyRegDate=2025-07-25T10:27:57.637362)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests ---------------------------------------
+2025-07-30 10:32:12 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.BoardServiceTests]: BoardServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:12 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.BoardServiceTests
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.entity.BoardService requestDTO: PageRequestDTO(page=1, size=5)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests PREV: false
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests NEXT: true
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests TOTAL PAGE: 81
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests --------------------------------------------
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=424, title=Title...100, content=Content...100, writerEmail=user100@aaa.com, writerName=USER100, regDate=2025-07-30T10:32:12.549053, modDate=2025-07-30T10:32:12.549053, replyCount=0, hit=0)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=423, title=Title...99, content=Content...99, writerEmail=user99@aaa.com, writerName=USER99, regDate=2025-07-30T10:32:12.544042, modDate=2025-07-30T10:32:12.544042, replyCount=0, hit=0)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=422, title=Title...98, content=Content...98, writerEmail=user98@aaa.com, writerName=USER98, regDate=2025-07-30T10:32:12.538955, modDate=2025-07-30T10:32:12.538955, replyCount=0, hit=0)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=421, title=Title...97, content=Content...97, writerEmail=user97@aaa.com, writerName=USER97, regDate=2025-07-30T10:32:12.533974, modDate=2025-07-30T10:32:12.533974, replyCount=0, hit=0)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=420, title=Title...96, content=Content...96, writerEmail=user96@aaa.com, writerName=USER96, regDate=2025-07-30T10:32:12.529045, modDate=2025-07-30T10:32:12.529045, replyCount=0, hit=0)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests ----------------------------------------------
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 1
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 2
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 3
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 4
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 5
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 6
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 7
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 8
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 9
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 10
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.entity.BoardService DTO -------------------------------
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.entity.BoardService BoardDTO(bno=null, title=Test Title1, content=Test Content1, writerEmail=user5@aaa.com, writerName=null, regDate=null, modDate=null, replyCount=null, hit=null)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.entity.BoardService Board(bno=null, title=Test Title1, content=Test Content1, hit=0, imageSet=[])
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests 425
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests Board(bno=70, title=Title...70, content=Content...70, hit=0, imageSet=[])
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests --------------------------------------
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests []
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests Board(bno=4, title=Title...4, content=Content...4, hit=0, imageSet=[BoardImage(uuid=1e242eaa-b37b-4b83-adc0-7c9913b0028b, fileName=updatefile0.jpg, ord=0), BoardImage(uuid=155052f8-8130-4423-8e0d-f6bf69edbd9b, fileName=updatefile1.jpg, ord=1)])
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests ------------------------------------------
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardImage(uuid=1e242eaa-b37b-4b83-adc0-7c9913b0028b, fileName=updatefile0.jpg, ord=0)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardImage(uuid=155052f8-8130-4423-8e0d-f6bf69edbd9b, fileName=updatefile1.jpg, ord=1)
+2025-07-30 10:32:12 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.ConverterTest]: ConverterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:12 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.ConverterTest
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.ConverterTest 11 -> 11.00
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.ConverterTest 25.23 -> 25.23
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.ConverterTest "2.32" -> 2.32
+2025-07-30 10:32:12 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.MemberRepositoryTest]: MemberRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:12 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.MemberRepositoryTest
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.MemberRepositoryTest Starting MemberRepositoryTest using Java 21.0.7 with PID 20180 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:12 [Test worker] INFO  com.example.springdemo.MemberRepositoryTest No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:12 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:12 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:12 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+2025-07-30 10:32:12 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+2025-07-30 10:32:13 [Test worker] INFO  o.s.b.a.l.ConditionEvaluationReportLogger 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-30 10:32:13 [Test worker] ERROR org.springframework.boot.SpringApplication Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:328)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:144)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1461)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:563)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:110)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:155)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	... 106 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 116 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.util.Assert.state(Assert.java:79)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactory.getEmbeddedDatabase(TestDatabaseAutoConfiguration.java:291)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean.afterPropertiesSet(TestDatabaseAutoConfiguration.java:256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822)
+	... 126 common frames omitted
+2025-07-30 10:32:13 [Test worker] WARN  o.s.test.context.TestContextManager Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.springdemo.MemberRepositoryTest@563d3c53]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@4ac5bbc8 testClass = com.example.springdemo.MemberRepositoryTest, locations = [], classes = [com.example.springdemo.SpringDemoApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@a8e6492, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@2021c352, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@34be3d80, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@8203901, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40f1be1b, [ImportsContextCustomizer@4d437408 key = [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, com.example.springdemo.config.QuerydslConfig, org.springframework.boot.autoconfigure.jdbc.JdbcClientAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@14c01636, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4fc5e095, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@37bd68c3, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@4af4cec3], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:155)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:328)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:144)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1461)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:563)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:110)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 91 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	... 106 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 116 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.util.Assert.state(Assert.java:79)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactory.getEmbeddedDatabase(TestDatabaseAutoConfiguration.java:291)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean.afterPropertiesSet(TestDatabaseAutoConfiguration.java:256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822)
+	... 126 common frames omitted
+2025-07-30 10:32:13 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.MemoApiControllerTests]: MemoApiControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:13 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.MemoApiControllerTests
+2025-07-30 10:32:13 [Test worker] INFO  com.example.springdemo.MemoApiControllerTests Starting MemoApiControllerTests using Java 21.0.7 with PID 20180 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:13 [Test worker] INFO  com.example.springdemo.MemoApiControllerTests No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:13 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:13 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:13 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-30 10:32:13 [Test worker] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-30 10:32:13 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-30 10:32:13 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-07-30 10:32:13 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@599df260
+2025-07-30 10:32:13 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-07-30 10:32:13 [Test worker] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-30 10:32:13 [Test worker] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-30 10:32:13 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:13 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-30 10:32:13 [Test worker] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-30 10:32:13 [Test worker] INFO  o.s.b.t.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+2025-07-30 10:32:13 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+2025-07-30 10:32:13 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Completed initialization in 1 ms
+2025-07-30 10:32:13 [Test worker] INFO  com.example.springdemo.MemoApiControllerTests Started MemoApiControllerTests in 0.692 seconds (process running for 9.823)
+2025-07-30 10:32:13 [Test worker] INFO  o.s.b.t.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+2025-07-30 10:32:13 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+2025-07-30 10:32:13 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Completed initialization in 0 ms
+2025-07-30 10:32:13 [Test worker] INFO  o.s.b.t.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+2025-07-30 10:32:13 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+2025-07-30 10:32:13 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Completed initialization in 1 ms
+2025-07-30 10:32:13 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.MemoRepositoryTests]: MemoRepositoryTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:13 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.MemoRepositoryTests
+2025-07-30 10:32:13 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=704, memoText=테스트 메모)
+2025-07-30 10:32:13 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests jdk.proxy3.$Proxy185
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=704, memoText=테스트 메모)
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page 1 of 21 containing com.example.springdemo.entity.Memo instances
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page 1 of 21 containing com.example.springdemo.entity.Memo instances
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests ------------------------------------------------------
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Total Pages: 21
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Total count: 101
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page Number: 0
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page Size: 5
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests has Next Page?: true
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests first Page?: true
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests getSort(): UNSORTED
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests ========================================================
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests ======================================================
+2025-07-30 10:32:14 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:14 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.ProductControllerTest
+2025-07-30 10:32:14 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.springdemo.controller.ProductController.create(com.example.springdemo.entity.Product): [Field error in object 'product' on field 'name': rejected value []; codes [NotBlank.product.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+2025-07-30 10:32:14 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.ReplyRepositoryTests]: ReplyRepositoryTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:14 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.ReplyRepositoryTests
+2025-07-30 10:32:14 [Test worker] INFO  com.example.springdemo.ReplyRepositoryTests Reply(rno=1, reply=Reply...1, replyer=guest)
+2025-07-30 10:32:14 [Test worker] WARN  o.hibernate.engine.jdbc.spi.SqlExceptionHelper SQL Error: 1452, SQLState: 23000
+2025-07-30 10:32:14 [Test worker] ERROR o.hibernate.engine.jdbc.spi.SqlExceptionHelper Cannot add or update a child row: a foreign key constraint fails (`scottdb`.`reply`, CONSTRAINT `FKr1bmblqir7dalmh47ngwo7mcs` FOREIGN KEY (`board_bno`) REFERENCES `board` (`bno`))
+2025-07-30 10:32:14 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.SpringDemoApplicationTests]: SpringDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:14 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.SpringDemoApplicationTests
+2025-07-30 10:32:14 [Test worker] INFO  c.e.springdemo.SpringDemoApplicationTests contextLoad.............
+2025-07-30 10:32:14 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-07-30 10:32:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-07-30 10:32:14 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-07-30 10:32:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-07-30 10:32:24 [background-preinit] INFO  org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.2.Final
+2025-07-30 10:32:24 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Starting BoardRepositoryTests using Java 21.0.7 with PID 19920 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:24 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:25 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:25 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 91 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:26 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-30 10:32:26 [Test worker] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-30 10:32:26 [Test worker] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-30 10:32:26 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-30 10:32:26 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-07-30 10:32:26 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42a97053
+2025-07-30 10:32:26 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-07-30 10:32:26 [Test worker] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-30 10:32:27 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-30 10:32:27 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown Graceful shutdown complete
+2025-07-30 10:32:27 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:27 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-07-30 10:32:27 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-07-30 10:32:27 [Test worker] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-30 10:32:27 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:28 [Test worker] INFO  o.s.d.j.repository.query.QueryEnhancerFactory Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-30 10:32:29 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-30 10:32:29 [Test worker] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Started BoardRepositoryTests in 5.767 seconds (process running for 7.009)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Board(bno=100, title=Title...100, content=Content...100, hit=0, imageSet=[])
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests Member(email=user100@aaa.com, password=1111, name=USER100)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=426, title=Image Test, content=첨부파일 테스트, writerEmail=user1@aaa.com, writerName=USER1, regDate=2025-07-30T10:32:12.706670, modDate=2025-07-30T10:32:12.706670, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=425, title=Test Title1, content=Test Content1, writerEmail=user5@aaa.com, writerName=USER5, regDate=2025-07-30T10:32:12.639432, modDate=2025-07-30T10:32:12.639432, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=424, title=Title...100, content=Content...100, writerEmail=user100@aaa.com, writerName=USER100, regDate=2025-07-30T10:32:12.549053, modDate=2025-07-30T10:32:12.549053, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=423, title=Title...99, content=Content...99, writerEmail=user99@aaa.com, writerName=USER99, regDate=2025-07-30T10:32:12.544042, modDate=2025-07-30T10:32:12.544042, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=422, title=Title...98, content=Content...98, writerEmail=user98@aaa.com, writerName=USER98, regDate=2025-07-30T10:32:12.538955, modDate=2025-07-30T10:32:12.538955, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=421, title=Title...97, content=Content...97, writerEmail=user97@aaa.com, writerName=USER97, regDate=2025-07-30T10:32:12.533974, modDate=2025-07-30T10:32:12.533974, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=420, title=Title...96, content=Content...96, writerEmail=user96@aaa.com, writerName=USER96, regDate=2025-07-30T10:32:12.529045, modDate=2025-07-30T10:32:12.529045, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=419, title=Title...95, content=Content...95, writerEmail=user95@aaa.com, writerName=USER95, regDate=2025-07-30T10:32:12.522585, modDate=2025-07-30T10:32:12.522585, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=418, title=Title...94, content=Content...94, writerEmail=user94@aaa.com, writerName=USER94, regDate=2025-07-30T10:32:12.517587, modDate=2025-07-30T10:32:12.517587, replyCount=0, hit=0)
+2025-07-30 10:32:30 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardDTO(bno=417, title=Title...93, content=Content...93, writerEmail=user93@aaa.com, writerName=USER93, regDate=2025-07-30T10:32:12.512585, modDate=2025-07-30T10:32:12.512585, replyCount=0, hit=0)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests BoardReplyDTO(bno=100, title=Title...100, content=Content...100, hit=0, regDate=2025-07-25T10:27:46.344654, modDate=2025-07-25T10:27:46.344654, rno=45, reply=Reply...45, replyer=guest, replyRegDate=2025-07-25T10:27:57.637362)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardRepositoryTests ---------------------------------------
+2025-07-30 10:32:31 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.BoardServiceTests]: BoardServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:31 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.BoardServiceTests
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.entity.BoardService requestDTO: PageRequestDTO(page=1, size=5)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests PREV: false
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests NEXT: true
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests TOTAL PAGE: 101
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests --------------------------------------------
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=526, title=Title...100, content=Content...100, writerEmail=user100@aaa.com, writerName=USER100, regDate=2025-07-30T10:32:31.550472, modDate=2025-07-30T10:32:31.550472, replyCount=0, hit=0)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=525, title=Title...99, content=Content...99, writerEmail=user99@aaa.com, writerName=USER99, regDate=2025-07-30T10:32:31.550472, modDate=2025-07-30T10:32:31.550472, replyCount=0, hit=0)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=524, title=Title...98, content=Content...98, writerEmail=user98@aaa.com, writerName=USER98, regDate=2025-07-30T10:32:31.535462, modDate=2025-07-30T10:32:31.535462, replyCount=0, hit=0)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=523, title=Title...97, content=Content...97, writerEmail=user97@aaa.com, writerName=USER97, regDate=2025-07-30T10:32:31.535462, modDate=2025-07-30T10:32:31.535462, replyCount=0, hit=0)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardDTO(bno=522, title=Title...96, content=Content...96, writerEmail=user96@aaa.com, writerName=USER96, regDate=2025-07-30T10:32:31.518801, modDate=2025-07-30T10:32:31.518801, replyCount=0, hit=0)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests ----------------------------------------------
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 1
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 2
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 3
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 4
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 5
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 6
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 7
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 8
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 9
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 10
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.entity.BoardService DTO -------------------------------
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.entity.BoardService BoardDTO(bno=null, title=Test Title1, content=Test Content1, writerEmail=user5@aaa.com, writerName=null, regDate=null, modDate=null, replyCount=null, hit=null)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.entity.BoardService Board(bno=null, title=Test Title1, content=Test Content1, hit=0, imageSet=[])
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests 527
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests Board(bno=70, title=Title...70, content=Content...70, hit=0, imageSet=[])
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests --------------------------------------
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests []
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests Board(bno=4, title=Title...4, content=Content...4, hit=0, imageSet=[BoardImage(uuid=76814d4b-ef63-427c-bc94-0a96759ab000, fileName=updatefile0.jpg, ord=0), BoardImage(uuid=022aeb05-b500-4bb8-a899-7b147c7ab162, fileName=updatefile1.jpg, ord=1)])
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests ------------------------------------------
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardImage(uuid=76814d4b-ef63-427c-bc94-0a96759ab000, fileName=updatefile0.jpg, ord=0)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.BoardServiceTests BoardImage(uuid=022aeb05-b500-4bb8-a899-7b147c7ab162, fileName=updatefile1.jpg, ord=1)
+2025-07-30 10:32:31 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.MemberRepositoryTest]: MemberRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:31 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.MemberRepositoryTest
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemberRepositoryTest Starting MemberRepositoryTest using Java 21.0.7 with PID 19920 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemberRepositoryTest No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:31 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:31 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:31 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+2025-07-30 10:32:31 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+2025-07-30 10:32:31 [Test worker] INFO  o.s.b.a.l.ConditionEvaluationReportLogger 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-30 10:32:31 [Test worker] ERROR org.springframework.boot.SpringApplication Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:328)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:144)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1461)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:563)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:110)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:155)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	... 106 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 116 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.util.Assert.state(Assert.java:79)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactory.getEmbeddedDatabase(TestDatabaseAutoConfiguration.java:291)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean.afterPropertiesSet(TestDatabaseAutoConfiguration.java:256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822)
+	... 126 common frames omitted
+2025-07-30 10:32:31 [Test worker] WARN  o.s.test.context.TestContextManager Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.springdemo.MemberRepositoryTest@5aecf9b5]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@de44b10 testClass = com.example.springdemo.MemberRepositoryTest, locations = [], classes = [com.example.springdemo.SpringDemoApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@a8e6492, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@2d10b5b4, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@34be3d80, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@b21eb0dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40f1be1b, [ImportsContextCustomizer@3f550524 key = [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, com.example.springdemo.config.QuerydslConfig, org.springframework.boot.autoconfigure.jdbc.JdbcClientAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@14c01636, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4fc5e095, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@37bd68c3, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@2da0d6b4], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:155)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:328)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:144)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1461)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:563)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:110)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 91 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	... 106 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource': Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 116 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to replace DataSource with an embedded database for tests. If you want an embedded database please put a supported one on the classpath or tune the replace attribute of @AutoConfigureTestDatabase.
+	at org.springframework.util.Assert.state(Assert.java:79)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactory.getEmbeddedDatabase(TestDatabaseAutoConfiguration.java:291)
+	at org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean.afterPropertiesSet(TestDatabaseAutoConfiguration.java:256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822)
+	... 126 common frames omitted
+2025-07-30 10:32:31 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.MemoRepositoryTests]: MemoRepositoryTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:31 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.MemoRepositoryTests
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=804, memoText=Sample ... 100)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=803, memoText=Sample ... 99)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=802, memoText=Sample ... 98)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=801, memoText=Sample ... 97)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=800, memoText=Sample ... 96)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=799, memoText=Sample ... 95)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=798, memoText=Sample ... 94)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=797, memoText=Sample ... 93)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=796, memoText=Sample ... 92)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=795, memoText=Sample ... 91)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=794, memoText=Sample ... 90)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=793, memoText=Sample ... 89)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=792, memoText=Sample ... 88)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=791, memoText=Sample ... 87)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=790, memoText=Sample ... 86)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=789, memoText=Sample ... 85)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=788, memoText=Sample ... 84)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=787, memoText=Sample ... 83)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=786, memoText=Sample ... 82)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=785, memoText=Sample ... 81)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=784, memoText=Sample ... 80)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=783, memoText=Sample ... 79)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=782, memoText=Sample ... 78)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=781, memoText=Sample ... 77)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=780, memoText=Sample ... 76)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=779, memoText=Sample ... 75)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=778, memoText=Sample ... 74)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=777, memoText=Sample ... 73)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=776, memoText=Sample ... 72)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=775, memoText=Sample ... 71)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=774, memoText=Sample ... 70)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=773, memoText=Sample ... 69)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=772, memoText=Sample ... 68)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=771, memoText=Sample ... 67)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=770, memoText=Sample ... 66)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=769, memoText=Sample ... 65)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=768, memoText=Sample ... 64)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=767, memoText=Sample ... 63)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=766, memoText=Sample ... 62)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=765, memoText=Sample ... 61)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=764, memoText=Sample ... 60)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=763, memoText=Sample ... 59)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=762, memoText=Sample ... 58)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=761, memoText=Sample ... 57)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=760, memoText=Sample ... 56)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=759, memoText=Sample ... 55)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=758, memoText=Sample ... 54)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=757, memoText=Sample ... 53)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=756, memoText=Sample ... 52)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=755, memoText=Sample ... 51)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=754, memoText=Sample ... 50)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=753, memoText=Sample ... 49)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=752, memoText=Sample ... 48)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=751, memoText=Sample ... 47)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=750, memoText=Sample ... 46)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=749, memoText=Sample ... 45)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=748, memoText=Sample ... 44)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=747, memoText=Sample ... 43)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=746, memoText=Sample ... 42)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=745, memoText=Sample ... 41)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=744, memoText=Sample ... 40)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=743, memoText=Sample ... 39)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=742, memoText=Sample ... 38)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=741, memoText=Sample ... 37)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=740, memoText=Sample ... 36)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=739, memoText=Sample ... 35)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=738, memoText=Sample ... 34)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=737, memoText=Sample ... 33)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=736, memoText=Sample ... 32)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=735, memoText=Sample ... 31)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=734, memoText=Sample ... 30)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=733, memoText=Sample ... 29)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=732, memoText=Sample ... 28)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=731, memoText=Sample ... 27)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=730, memoText=Sample ... 26)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=729, memoText=Sample ... 25)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=728, memoText=Sample ... 24)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=727, memoText=Sample ... 23)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=726, memoText=Sample ... 22)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=725, memoText=Sample ... 21)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=724, memoText=Sample ... 20)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=723, memoText=Sample ... 19)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=722, memoText=Sample ... 18)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=721, memoText=Sample ... 17)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=720, memoText=Sample ... 16)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=719, memoText=Sample ... 15)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=718, memoText=Sample ... 14)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=717, memoText=Sample ... 13)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=716, memoText=Sample ... 12)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=715, memoText=Sample ... 11)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=714, memoText=Sample ... 10)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=713, memoText=Sample ... 9)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=712, memoText=Sample ... 8)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=711, memoText=Sample ... 7)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=710, memoText=Sample ... 6)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=709, memoText=Sample ... 5)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=708, memoText=Sample ... 4)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=707, memoText=Sample ... 3)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=706, memoText=Sample ... 2)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=705, memoText=Sample ... 1)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=704, memoText=테스트 메모)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests jdk.proxy3.$Proxy185
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=705, memoText=Sample ... 1)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=714, memoText=Sample ... 10)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=715, memoText=Sample ... 11)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=716, memoText=Sample ... 12)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=717, memoText=Sample ... 13)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=718, memoText=Sample ... 14)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=719, memoText=Sample ... 15)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=720, memoText=Sample ... 16)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=721, memoText=Sample ... 17)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=722, memoText=Sample ... 18)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=723, memoText=Sample ... 19)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=725, memoText=Sample ... 21)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=735, memoText=Sample ... 31)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=745, memoText=Sample ... 41)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=755, memoText=Sample ... 51)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=765, memoText=Sample ... 61)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=775, memoText=Sample ... 71)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=785, memoText=Sample ... 81)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=795, memoText=Sample ... 91)
+2025-07-30 10:32:31 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=804, memoText=Sample ... 100)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=804, memoText=Sample ... 100)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=803, memoText=Sample ... 99)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=802, memoText=Sample ... 98)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=801, memoText=Sample ... 97)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=800, memoText=Sample ... 96)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=799, memoText=Sample ... 95)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=798, memoText=Sample ... 94)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=797, memoText=Sample ... 93)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=796, memoText=Sample ... 92)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Memo(mno=795, memoText=Sample ... 91)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page 1 of 41 containing com.example.springdemo.entity.Memo instances
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page 1 of 41 containing com.example.springdemo.entity.Memo instances
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests ------------------------------------------------------
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Total Pages: 41
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Total count: 201
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page Number: 0
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests Page Size: 5
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests has Next Page?: true
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests first Page?: true
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests getSort(): UNSORTED
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests ========================================================
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoRepositoryTests ======================================================
+2025-07-30 10:32:32 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.ReplyRepositoryTests]: ReplyRepositoryTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:32 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.ReplyRepositoryTests
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.ReplyRepositoryTests Reply(rno=1, reply=Reply...1, replyer=guest)
+2025-07-30 10:32:32 [Test worker] WARN  o.hibernate.engine.jdbc.spi.SqlExceptionHelper SQL Error: 1452, SQLState: 23000
+2025-07-30 10:32:32 [Test worker] ERROR o.hibernate.engine.jdbc.spi.SqlExceptionHelper Cannot add or update a child row: a foreign key constraint fails (`scottdb`.`reply`, CONSTRAINT `FKr1bmblqir7dalmh47ngwo7mcs` FOREIGN KEY (`board_bno`) REFERENCES `board` (`bno`))
+2025-07-30 10:32:32 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.ConverterTest]: ConverterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:32 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.ConverterTest
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.ConverterTest 11 -> 11.00
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.ConverterTest 25.23 -> 25.23
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.ConverterTest "2.32" -> 2.32
+2025-07-30 10:32:32 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.MemoApiControllerTests]: MemoApiControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:32 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.MemoApiControllerTests
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoApiControllerTests Starting MemoApiControllerTests using Java 21.0.7 with PID 19920 (started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:32 [Test worker] INFO  com.example.springdemo.MemoApiControllerTests No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:33 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:33 [Test worker] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:33 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-30 10:32:33 [Test worker] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-30 10:32:33 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-30 10:32:33 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-07-30 10:32:33 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@389f89be
+2025-07-30 10:32:33 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-07-30 10:32:33 [Test worker] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-30 10:32:33 [Test worker] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-30 10:32:33 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:33 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-30 10:32:33 [Test worker] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-30 10:32:33 [Test worker] INFO  o.s.b.t.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+2025-07-30 10:32:33 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+2025-07-30 10:32:33 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Completed initialization in 0 ms
+2025-07-30 10:32:33 [Test worker] INFO  com.example.springdemo.MemoApiControllerTests Started MemoApiControllerTests in 0.603 seconds (process running for 10.402)
+2025-07-30 10:32:33 [Test worker] INFO  o.s.b.t.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+2025-07-30 10:32:33 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+2025-07-30 10:32:33 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Completed initialization in 0 ms
+2025-07-30 10:32:33 [Test worker] INFO  o.s.b.t.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+2025-07-30 10:32:33 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+2025-07-30 10:32:33 [Test worker] INFO  o.s.test.web.servlet.TestDispatcherServlet Completed initialization in 0 ms
+2025-07-30 10:32:33 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:33 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.ProductControllerTest
+2025-07-30 10:32:33 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.springdemo.controller.ProductController.create(com.example.springdemo.entity.Product): [Field error in object 'product' on field 'name': rejected value []; codes [NotBlank.product.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+2025-07-30 10:32:33 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.example.springdemo.SpringDemoApplicationTests]: SpringDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-30 10:32:33 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.SpringDemoApplicationTests
+2025-07-30 10:32:33 [Test worker] INFO  c.e.springdemo.SpringDemoApplicationTests contextLoad.............
+2025-07-30 10:32:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-07-30 10:32:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-07-30 10:32:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-07-30 10:32:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-07-30 10:32:42 [background-preinit] INFO  org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.2.Final
+2025-07-30 10:32:43 [restartedMain] INFO  com.example.springdemo.SpringDemoApplication Starting SpringDemoApplication using Java 21.0.7 with PID 7944 (C:\Users\campus2H052\Desktop\spring-demo\build\classes\java\main started by campus2H052 in C:\Users\campus2H052\Desktop\spring-demo)
+2025-07-30 10:32:43 [restartedMain] INFO  com.example.springdemo.SpringDemoApplication No active profile set, falling back to 1 default profile: "default"
+2025-07-30 10:32:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-30 10:32:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-30 10:32:43 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-30 10:32:43 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2025-07-30 10:32:44 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8080 (http)
+2025-07-30 10:32:44 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-30 10:32:44 [restartedMain] INFO  org.apache.catalina.core.StandardService Starting service [Tomcat]
+2025-07-30 10:32:44 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-30 10:32:44 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2025-07-30 10:32:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1416 ms
+2025-07-30 10:32:44 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-30 10:32:44 [restartedMain] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-30 10:32:44 [restartedMain] INFO  o.h.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+2025-07-30 10:32:44 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-30 10:32:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-07-30 10:32:45 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7927de0b
+2025-07-30 10:32:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-07-30 10:32:45 [restartedMain] INFO  org.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-30 10:32:45 [restartedMain] INFO  o.h.e.t.j.p.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-30 10:32:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-30 10:32:46 [restartedMain] INFO  o.s.d.j.repository.query.QueryEnhancerFactory Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-30 10:32:46 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-30 10:32:47 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2025-07-30 10:32:47 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+2025-07-30 10:32:47 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2025-07-30 10:32:47 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8080 (http) with context path '/'
+2025-07-30 10:32:47 [restartedMain] INFO  com.example.springdemo.SpringDemoApplication Started SpringDemoApplication in 5.239 seconds (process running for 5.949)
+2025-07-30 10:32:47 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-30 10:32:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-07-30 10:32:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2025-07-30 10:32:48 [http-nio-8080-exec-4] INFO  org.springdoc.api.AbstractOpenApiResource Init duration for springdoc-openapi is: 352 ms
