@@ -1,11 +1,11 @@
 package com.example.springdemo.entity;
 
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 import org.springframework.batch.core.*;
 import org.springframework.batch.core.launch.JobLauncher;
+import org.springframework.stereotype.Service;
 
-@Setter
+@Service
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
 

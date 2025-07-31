@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="headerfiles">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/5.3.3/css/bootstrap.css}"/>
+<!--  <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>-->
+<!--  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+  <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+  <script th:src="@{/webjars/sockjs-client/sockjs.min.js}"></script>
+  <script th:src="@{/webjars/stomp-websocket/stomp.min.js}"></script>
+</head>
+<body>
+<footer th:fragment="footer" class="my-5 text-muted text-center text-small">
+  <p class="mb-1">하나로 백엔드</p>
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#">Articles</a></li>
+  </ul>
+</footer>
+</body>
+</html>

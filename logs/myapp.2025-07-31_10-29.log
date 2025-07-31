@@ -1,0 +1,4 @@
+2025-07-31 10:29:20 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'bno': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "boradcast"]
+2025-07-31 10:29:20 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'bno': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "favicon.ico"]
+2025-07-31 10:29:33 [http-nio-8080-exec-5] INFO  org.springdoc.api.AbstractOpenApiResource Init duration for springdoc-openapi is: 294 ms
+2025-07-31 10:29:56 [http-nio-8080-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource Init duration for springdoc-openapi is: 96 ms

@@ -1,0 +1,8 @@
+2025-07-31 10:36:00 [MessageBroker-3] INFO  o.s.b.c.launch.support.TaskExecutorJobLauncher Job: [SimpleJob: [name=csvJob]] launched with the following parameters: [{'filePath':'{value=users.csv, type=class java.lang.String, identifying=true}','time':'{value=1753925760012, type=class java.lang.Long, identifying=true}'}]
+2025-07-31 10:36:00 [MessageBroker-3] INFO  o.s.batch.core.job.SimpleStepHandler Executing step: [csvStep]
+2025-07-31 10:36:00 [MessageBroker-3] INFO  com.example.springdemo.config.BatchConfig === Batch Output Start ===
+2025-07-31 10:36:00 [MessageBroker-3] INFO  com.example.springdemo.config.BatchConfig User(name=Alice, age=30)
+2025-07-31 10:36:00 [MessageBroker-3] INFO  com.example.springdemo.config.BatchConfig User(name=Charlie, age=40)
+2025-07-31 10:36:00 [MessageBroker-3] INFO  com.example.springdemo.config.BatchConfig === Batch Output End ===
+2025-07-31 10:36:00 [MessageBroker-3] INFO  o.springframework.batch.core.step.AbstractStep Step: [csvStep] executed in 14ms
+2025-07-31 10:36:00 [MessageBroker-3] INFO  o.s.b.c.launch.support.TaskExecutorJobLauncher Job: [SimpleJob: [name=csvJob]] completed with the following parameters: [{'filePath':'{value=users.csv, type=class java.lang.String, identifying=true}','time':'{value=1753925760012, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 41ms
